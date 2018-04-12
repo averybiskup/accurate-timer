@@ -1,0 +1,70 @@
+#hour, #min, #sec {
+  color: #ff6655;
+  display: block;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 222.47px;
+}
+
+#hour1, #hour2, #min1, #min2, #sec1, #sec2 {
+  display: inline;
+  margin: 0px !important;
+  transition: all 0.6s ease;
+  font-size: 200px;
+}
+
+.text {
+  font-size: 50px;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+#textBlock {
+  position: absolute;
+  bottom: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+html {
+  background-color: grey;
+  background: url("./mountain.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.chosen {
+  color: white !important;
+}
+
+svg {
+  display: none;
+}
+
+@media screen and (min-width:800px) {
+  svg {
+    display: inline;
+  }
+}
+
+.down-hour, .down-min, .down-sec {
+  margin-top: -50px;
+  font-size: 100px;
+}
+
+.up-hour, .up-min, .up-sec {
+  margin-bottom: -40px;
+  font-size: 100px;
+}
